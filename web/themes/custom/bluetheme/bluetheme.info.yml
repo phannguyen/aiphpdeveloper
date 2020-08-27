@@ -1,0 +1,22 @@
+name: Blue Theme
+type: theme
+description: 'My blog theme.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: olivero
+libraries:
+  #- bluetheme/global-styling
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below (Flex Layout)'
+  footer_top: 'Footer Top (Flex Layout)'
+  footer_bottom: 'Footer Bottom'

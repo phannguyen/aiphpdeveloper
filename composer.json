@@ -16,10 +16,11 @@
     ],
     "require": {
         "composer/installers": "^1.9",
-        "drupal/bootstrap_barrio": "^5.0",
+        "drupal/admin_toolbar": "^2.3",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9"
+        "drupal/core-recommended": "^9",
+        "drupal/olivero": "^1.0@beta"
     },
     "conflict": {
         "drupal/drupal": "*"
