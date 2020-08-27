@@ -13,3 +13,7 @@
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
+
+#Other
+/web/sites/default/development.services.yml
+composer.lock
