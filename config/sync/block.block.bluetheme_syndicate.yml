@@ -1,0 +1,23 @@
+uuid: fc36de7a-f9cf-49a4-ad49-aa0f6ae228a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: oxx42senoNVyvKqVWyrphaynw-aZ1ijr1OmHNM3UVW4
+id: bluetheme_syndicate
+theme: bluetheme
+region: social
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  provider: node
+  label_display: '0'
+  block_count: 10
+visibility: {  }

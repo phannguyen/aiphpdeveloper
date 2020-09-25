@@ -1,0 +1,22 @@
+uuid: c842404c-a87f-4548-9311-481145df1049
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: ra6f6AXShbzKP9r6uPc9cfCx2KuomlPqmt1WWPUuDf0
+id: bluetheme_primary_local_tasks
+theme: bluetheme
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

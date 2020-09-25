@@ -1,0 +1,22 @@
+uuid: 7e4cc48c-97c8-485e-8db6-e11b66ca5eee
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: kZCp4h7S-QCo6ENXEyv5I6jbxtIFGrDT8hDDFUfuNjY
+id: bluetheme_help
+theme: bluetheme
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

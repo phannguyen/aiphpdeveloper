@@ -17,3 +17,6 @@
 #Other
 /web/sites/default/development.services.yml
 composer.lock
+
+#Ignore config file
+/config/sync/system.site.yml

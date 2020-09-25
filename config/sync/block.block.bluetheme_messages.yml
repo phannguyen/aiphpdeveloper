@@ -1,0 +1,22 @@
+uuid: 21f1a3a4-384d-4abe-a26c-02e8a06cda68
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: KfyaTPRJEcAyy2e5AxEfWQnuHcn4WrfvcWek7lSmHZQ
+id: bluetheme_messages
+theme: bluetheme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

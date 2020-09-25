@@ -1,0 +1,14 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: ''
+favicon:
+  use_default: 0
+  path: ''
+mobile_menu_all_widths: 0
+site_branding_bg_color: default
+debug: 0

@@ -1,0 +1,25 @@
+uuid: 937daf3c-26af-426b-9fea-eb058f40c4f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: 350nGQzvFBtTwZvihMaMT-laz0UZOOpibzt_Ie5C7pc
+id: bluetheme_sitebranding
+theme: bluetheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

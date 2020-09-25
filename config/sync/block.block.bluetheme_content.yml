@@ -1,0 +1,22 @@
+uuid: b4f32bb1-992b-45f8-ad04-33afb643f556
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: BL6Gcw5Us0zai1ADadlNYLxlEblMedc_3C3lF0PjtCE
+id: bluetheme_content
+theme: bluetheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

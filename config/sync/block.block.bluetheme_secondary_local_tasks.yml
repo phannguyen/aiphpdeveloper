@@ -1,0 +1,22 @@
+uuid: cfe2fc07-2873-424b-ae77-4ede611a629a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: V7GM1m6Qh500cQE7LWZV8lRuwLqXdjR0S2kSk8pEv6g
+id: bluetheme_secondary_local_tasks
+theme: bluetheme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 80830f31-8031-4cd7-a696-6c16945e0c0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluetheme
+_core:
+  default_config_hash: ygYOxNV388KKajE2oZsiM9hejoed0gu5WeXcLR_zfzM
+id: bluetheme_powered
+theme: bluetheme
+region: footer_bottom
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
