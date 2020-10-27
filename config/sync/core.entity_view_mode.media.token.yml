@@ -1,0 +1,10 @@
+uuid: fab28023-8b14-4146-aa1e-e664ed90bcce
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.token
+label: Token
+targetEntityType: media
+cache: true
