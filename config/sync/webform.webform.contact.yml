@@ -199,7 +199,7 @@ handlers:
     label: 'Email confirmation'
     notes: ''
     handler_id: email_confirmation
-    status: true
+    status: false
     conditions: {  }
     weight: 1
     settings:
@@ -236,7 +236,7 @@ handlers:
     label: 'Email notification'
     notes: ''
     handler_id: email_notification
-    status: true
+    status: false
     conditions: {  }
     weight: 2
     settings:
