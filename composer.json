@@ -17,14 +17,13 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^2.3",
-        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-composer-scaffold": "~9.1.0-beta1@dev",
         "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9",
+        "drupal/core-recommended": "~9.1.0-beta1@dev",
         "drupal/jquery_ui": "^1.4",
         "drupal/jquery_ui_datepicker": "^1.0",
         "drupal/jquery_ui_tabs": "^1.1",
         "drupal/jquery_ui_tooltip": "^1.1",
-        "drupal/olivero": "^1.0@beta",
         "drupal/pathauto": "^1.8",
         "drupal/recaptcha": "^3.0",
         "drupal/webform": "^6.0.0",
@@ -91,5 +90,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "~9.1.0-beta1@dev"
     }
 }
