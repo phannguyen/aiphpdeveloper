@@ -27,6 +27,7 @@
         "drupal/jquery_ui_datepicker": "^1.0",
         "drupal/jquery_ui_tabs": "^1.1",
         "drupal/jquery_ui_tooltip": "^1.1",
+        "drupal/metatag": "^1.14",
         "drupal/pathauto": "^1.8",
         "drupal/recaptcha": "^3.0",
         "drupal/webform": "^6.0.0",
