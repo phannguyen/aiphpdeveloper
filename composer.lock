@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd21adab04e00f9349c30082e1b1b3aa",
+    "content-hash": "c59eb0a657092ab78f4184b17b3d96d7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1622,16 +1622,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.1.0-beta1",
+            "version": "9.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "38c8517a8d6adafb06d8ec33cdb24eeb7cd97a38"
+                "reference": "1130d1562f5e6ab8b0f62515498bd85eed6d71eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/38c8517a8d6adafb06d8ec33cdb24eeb7cd97a38",
-                "reference": "38c8517a8d6adafb06d8ec33cdb24eeb7cd97a38",
+                "url": "https://api.github.com/repos/drupal/core/zipball/1130d1562f5e6ab8b0f62515498bd85eed6d71eb",
+                "reference": "1130d1562f5e6ab8b0f62515498bd85eed6d71eb",
                 "shasum": ""
             },
             "require": {
@@ -1867,11 +1867,11 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2020-11-06T14:10:18+00:00"
+            "time": "2020-11-17T22:20:36+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.1.0-beta1",
+            "version": "9.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1918,16 +1918,16 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "9.0.7",
+            "version": "9.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "fbb9d944f82a1f25ab967a8bc22d3dc19479bd11"
+                "reference": "812d6da43dd49cc210af62e80fa92189e68e565a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-project-message/zipball/fbb9d944f82a1f25ab967a8bc22d3dc19479bd11",
-                "reference": "fbb9d944f82a1f25ab967a8bc22d3dc19479bd11",
+                "url": "https://api.github.com/repos/drupal/core-project-message/zipball/812d6da43dd49cc210af62e80fa92189e68e565a",
+                "reference": "812d6da43dd49cc210af62e80fa92189e68e565a",
                 "shasum": ""
             },
             "require": {
@@ -1952,20 +1952,20 @@
             "keywords": [
                 "drupal"
             ],
-            "time": "2020-08-02T22:04:44+00:00"
+            "time": "2020-09-14T13:40:36+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.1.0-beta1",
+            "version": "9.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "7e9822e46bf852d8eb3cdcd2a604e8979dab304c"
+                "reference": "cdeed99c13c749ee77462359e3cbfd8839725167"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/7e9822e46bf852d8eb3cdcd2a604e8979dab304c",
-                "reference": "7e9822e46bf852d8eb3cdcd2a604e8979dab304c",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/cdeed99c13c749ee77462359e3cbfd8839725167",
+                "reference": "cdeed99c13c749ee77462359e3cbfd8839725167",
                 "shasum": ""
             },
             "require": {
@@ -1974,7 +1974,7 @@
                 "doctrine/annotations": "1.11.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.1.0-beta1",
+                "drupal/core": "9.1.0-rc1",
                 "egulias/email-validator": "2.1.22",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.0",
@@ -2023,7 +2023,7 @@
                 "symfony/var-dumper": "v5.1.8",
                 "symfony/yaml": "v4.4.16",
                 "twig/twig": "v2.14.1",
-                "typo3/phar-stream-wrapper": "v3.1.5"
+                "typo3/phar-stream-wrapper": "v3.1.6"
             },
             "conflict": {
                 "webflo/drupal-core-strict": "*"
@@ -2034,7 +2034,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
-            "time": "2020-11-06T14:10:18+00:00"
+            "time": "2020-11-17T22:20:36+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -6788,25 +6788,26 @@
         },
         {
             "name": "typo3/phar-stream-wrapper",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/phar-stream-wrapper.git",
-                "reference": "81a713c1e165baa7c09e46cc6799cee24ce45988"
+                "reference": "60131cb573a1e478cfecd34e4ea38e3b31505f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/phar-stream-wrapper/zipball/81a713c1e165baa7c09e46cc6799cee24ce45988",
-                "reference": "81a713c1e165baa7c09e46cc6799cee24ce45988",
+                "url": "https://api.github.com/repos/TYPO3/phar-stream-wrapper/zipball/60131cb573a1e478cfecd34e4ea38e3b31505f75",
+                "reference": "60131cb573a1e478cfecd34e4ea38e3b31505f75",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": "^7.0"
+                "php": "^7.0 || ^8.0"
             },
             "require-dev": {
                 "ext-xdebug": "*",
-                "phpunit/phpunit": "^6.5"
+                "phpspec/prophecy": "^1.10",
+                "symfony/phpunit-bridge": "^5.1"
             },
             "suggest": {
                 "ext-fileinfo": "For PHP builtin file type guessing, otherwise uses internal processing"
@@ -6834,7 +6835,7 @@
                 "security",
                 "stream-wrapper"
             ],
-            "time": "2020-06-19T18:43:12+00:00"
+            "time": "2020-11-07T09:06:16+00:00"
         },
         {
             "name": "webflo/drupal-finder",
@@ -7607,7 +7608,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "9.1.0-beta1",
+            "version": "9.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -10259,6 +10260,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/core-composer-scaffold": 20,
+        "drupal/core-project-message": 20,
         "drupal/core-recommended": 20,
         "drupal/core-dev": 20
     },
