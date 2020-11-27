@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^2.3",
         "drupal/codesnippet": "^1.7",
         "drupal/codetag": "^1.2",
@@ -94,6 +95,11 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        }, 
+        "patches": {
+          "drupal/pwa": {
+              "Drupal 9 deprecated code report": "https://www.drupal.org/files/issues/2020-05-22/3131591-12.patch"
+          }
         }
     },
     "require-dev": {
