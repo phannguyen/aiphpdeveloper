@@ -20,9 +20,9 @@
         "drupal/admin_toolbar": "^2.3",
         "drupal/codesnippet": "^1.7",
         "drupal/codetag": "^1.2",
-        "drupal/core-composer-scaffold": "~9.1.0-beta1@dev",
-        "drupal/core-project-message": "~9.1.0-beta1@dev",
-        "drupal/core-recommended": "~9.1.0-beta1@dev",
+        "drupal/core-composer-scaffold": "~9.1.0",
+        "drupal/core-project-message": "~9.1.0",
+        "drupal/core-recommended": "~9.1.0",
         "drupal/editor_advanced_link": "^1.8",
         "drupal/jquery_ui": "^1.4",
         "drupal/jquery_ui_datepicker": "^1.0",
@@ -103,6 +103,6 @@
         }
     },
     "require-dev": {
-        "drupal/core-dev": "~9.1.0-beta1@dev"
+        "drupal/core-dev": "~9.1.0"
     }
 }
